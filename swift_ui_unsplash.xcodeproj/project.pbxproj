@@ -11,6 +11,8 @@
 		D1BE395E2B6CD6A600A9892C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BE395D2B6CD6A600A9892C /* ContentView.swift */; };
 		D1BE39602B6CD6A800A9892C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BE395F2B6CD6A800A9892C /* Assets.xcassets */; };
 		D1BE39642B6CD6A900A9892C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BE39632B6CD6A900A9892C /* Preview Assets.xcassets */; };
+		D1BE396B2B6CF09400A9892C /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BE396A2B6CF09300A9892C /* PListManager.swift */; };
+		D1BE396D2B6CF0D700A9892C /* environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1BE396C2B6CF0D700A9892C /* environment.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		D1BE395F2B6CD6A800A9892C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1BE39612B6CD6A900A9892C /* swift_ui_unsplash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swift_ui_unsplash.entitlements; sourceTree = "<group>"; };
 		D1BE39632B6CD6A900A9892C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1BE396A2B6CF09300A9892C /* PListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PListManager.swift; path = "../../../Downloads/0d9d9bddbfa31f5659abd6e3ca6aca62-d09fbb886c995d3ac7816e5232d467ae23cf43a1/PListManager.swift"; sourceTree = "<group>"; };
+		D1BE396C2B6CF0D700A9892C /* environment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = environment.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				D1BE395B2B6CD6A600A9892C /* swift_ui_unsplashApp.swift */,
 				D1BE395D2B6CD6A600A9892C /* ContentView.swift */,
+				D1BE396A2B6CF09300A9892C /* PListManager.swift */,
+				D1BE396C2B6CF0D700A9892C /* environment.plist */,
 				D1BE395F2B6CD6A800A9892C /* Assets.xcassets */,
 				D1BE39612B6CD6A900A9892C /* swift_ui_unsplash.entitlements */,
 				D1BE39622B6CD6A900A9892C /* Preview Content */,
@@ -129,6 +135,7 @@
 			files = (
 				D1BE39642B6CD6A900A9892C /* Preview Assets.xcassets in Resources */,
 				D1BE39602B6CD6A800A9892C /* Assets.xcassets in Resources */,
+				D1BE396D2B6CF0D700A9892C /* environment.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BE395E2B6CD6A600A9892C /* ContentView.swift in Sources */,
+				D1BE396B2B6CF09400A9892C /* PListManager.swift in Sources */,
 				D1BE395C2B6CD6A600A9892C /* swift_ui_unsplashApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
