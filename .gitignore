@@ -101,5 +101,5 @@ iOSInjectionProject/
 # End of https://www.toptal.com/developers/gitignore/api/swift
 
 # environment.plist
-environment.plist
+*.plist
 
